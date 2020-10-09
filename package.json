@@ -31,7 +31,7 @@
 		"requirejs": "^2.3.6",
 		"typescript": "^4.0.3",
 		"terser": "^5.3.2",
-		"vscode-html-languageservice": "3.1.3",
+		"vscode-html-languageservice": "github:ztsing/vscode-html-languageservice",
 		"vscode-languageserver-types": "3.15.1",
 		"vscode-languageserver-textdocument": "^1.0.1"
 	},
