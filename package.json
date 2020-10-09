@@ -1,5 +1,5 @@
 {
-	"name": "monaco-html",
+	"name": "@devoszhang/monaco-html",
 	"version": "3.1.1",
 	"description": "HTML plugin for the Monaco Editor",
 	"scripts": {
@@ -10,14 +10,14 @@
 		"install-service-local": "npm install ../vscode-html-languageservice -f -D && npm install ../vscode-languageserver-node/types -f -D",
 		"prettier": "prettier --write ."
 	},
-	"author": "Microsoft Corporation",
+	"author": "devoszhang",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/monaco-html"
+		"url": "https://github.com/ztsing/monaco-html"
 	},
 	"bugs": {
-		"url": "https://github.com/Microsoft/monaco-editor/issues"
+		"url": "https://github.com/ztsing/monaco-editor/issues"
 	},
 	"module": "./release/esm/monaco.contribution.js",
 	"typings": "./release/esm/monaco.contribution.d.ts",
@@ -31,7 +31,7 @@
 		"requirejs": "^2.3.6",
 		"typescript": "^4.0.3",
 		"terser": "^5.3.2",
-		"vscode-html-languageservice": "github:ztsing/vscode-html-languageservice",
+		"vscode-html-languageservice": "npm:@devoszhang/vscode-html-languageservice@^3.1.3",
 		"vscode-languageserver-types": "3.15.1",
 		"vscode-languageserver-textdocument": "^1.0.1"
 	},
